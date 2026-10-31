@@ -131,3 +131,9 @@ jobs:
           echo "===== LAST LINES ====="
           tail -30 build.log
           exit $code
+      - name: Upload APK
+        uses: actions/upload-artifact@v6
+        with:
+          name: SidePanel-debug-apk
+          path: ${{ steps.p.outputs.dir }}/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
