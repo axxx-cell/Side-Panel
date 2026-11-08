@@ -16,4 +16,4 @@ Swipe from the edge to open your favorite apps and quick tools without leaving y
 4. Swipe from the right edge to open the panel
 
 ### First Release
-v1.0 - First release
+v1.9 - First release
